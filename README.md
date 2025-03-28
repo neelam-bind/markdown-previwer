@@ -22,14 +22,15 @@ This project is a lightweight, web-based Markdown previewer built using HTML, CS
 - **❌ Clear/Reset Button:**  
   A clear button is provided to reset the textarea, allowing you to quickly remove all Markdown input and start fresh.
 
-- **💻 Code Blocks with Syntax Highlighting (Bonus):**  
+- **💻 Code Blocks with Syntax Highlighting:**  
   - **Inline Code:** Supports inline code snippets, making it easy to highlight short code fragments.
   - **Multi-line Code Blocks:** Use fenced code blocks (with triple backticks) to include longer code segments.
   - **Syntax Highlighting:** Integrated with Highlight.js to automatically apply language-specific syntax coloring to your code blocks, enhancing readability.
 
 ## Screenshots
 
-Check out a [screenshot](https://example.com/screenshot) of the project in action!
+![image](https://github.com/user-attachments/assets/8886dbe3-485f-4925-996a-6a27d5cc5f79)
+
 
 ## Live Demo
 
