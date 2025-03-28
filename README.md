@@ -35,7 +35,7 @@ This project is a lightweight, web-based Markdown previewer built using HTML, CS
 
 ## Live Demo
 
-View the live demo of the project [here](https://example.com/live-demo).
+View the live demo of the project [here](https://neelam-bind.github.io/markdown-previwer/).
 
 ## Getting Started
 
