@@ -30,6 +30,7 @@ This project is a lightweight, web-based Markdown previewer built using HTML, CS
 ## Screenshots
 
 ![image](https://github.com/user-attachments/assets/8886dbe3-485f-4925-996a-6a27d5cc5f79)
+![image](https://github.com/user-attachments/assets/552dd3b8-6c26-4984-b525-beb2f8a4c6aa)
 
 
 ## Live Demo
