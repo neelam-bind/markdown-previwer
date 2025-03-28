@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+button {
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.markdown_writting {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+#input {
+  flex: 1;
+  resize: none;
+  padding: 0.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+#clear {
+  align-self: flex-end;
+  margin-top: 0.5rem;
+  height: 30px;
+  width: 70px;
+  color:darkblue;
+}
+
+.display_panel {
+  flex: 1;
+  border: 1px solid #f1f0f0;
+  padding: 0.5rem;
+  overflow: auto;
+  background-color: #fff;
+}
+
+#display {
+  margin: 0;
+  font-family: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+body.dark-mode {
+  background-color: #2f2f2f;
+  color: #f1f1f1;
+}
+
+body.dark-mode .display_panel {
+  background-color: #444;
+  border: 1px solid #555;
+}
+
+body.dark-mode #input {
+  background-color: #555;
+  color: #f1f1f1;
+  border: 1px solid #666;
+}
+
+/* Inline code styling */
+code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+body.dark-mode code {
+  background-color: #666;
+  color: #fff;
+}
