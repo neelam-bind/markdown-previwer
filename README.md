@@ -6,28 +6,34 @@ This project is a lightweight, web-based Markdown previewer built using HTML, CS
 
 ## Features
 
-- **Real-Time Preview:**  
-  As you type Markdown in the editor, the formatted HTML output appears instantly.
-  
-- **Syntax Highlighting:**  
-  Code blocks are automatically highlighted based on the specified language (e.g., using ```js).
+- **📝 Markdown Input Area:**  
+  A dedicated textarea on the left-hand side where users can type in Markdown syntax. This allows you to quickly create and edit your Markdown content.
 
-- **Dark Mode Toggle:**  
-  Easily switch between light and dark themes to suit your environment.
+- **👀 Live Preview:**  
+  A real-time preview section on the right-hand side that instantly displays the formatted output as you type. This makes it easy to see how your Markdown will render.
 
-- **Clear Functionality:**  
-  A clear button allows you to reset the Markdown input quickly.
+- **🔤 Basic Markdown Support:**  
+  The previewer supports essential Markdown elements, including:
+  - **Headings:** Create titles and sections using `#`, `##`, etc.
+  - **Bold & Italics:** Format text using `**bold**` and `*italic*`.
+  - **Links:** Easily add hyperlinks using `[title](http://example.com)`.
+  - **Lists:** Create both ordered and unordered lists for structured content.
 
-## Project Structure
+- **❌ Clear/Reset Button:**  
+  A clear button is provided to reset the textarea, allowing you to quickly remove all Markdown input and start fresh.
 
-- **index.html:**  
-  The main HTML file containing the layout, markup, and links to external libraries.
+- **💻 Code Blocks with Syntax Highlighting (Bonus):**  
+  - **Inline Code:** Supports inline code snippets, making it easy to highlight short code fragments.
+  - **Multi-line Code Blocks:** Use fenced code blocks (with triple backticks) to include longer code segments.
+  - **Syntax Highlighting:** Integrated with Highlight.js to automatically apply language-specific syntax coloring to your code blocks, enhancing readability.
 
-- **style.css:**  
-  Contains all the CSS styles for layout, themes, and inline code styling.
+## Screenshots
 
-- **script.js:**  
-  JavaScript code that handles Markdown parsing, syntax highlighting, dark mode toggle, and clear functionality.
+Check out a [screenshot](https://example.com/screenshot) of the project in action!
+
+## Live Demo
+
+View the live demo of the project [here](https://example.com/live-demo).
 
 ## Getting Started
 
